@@ -1,0 +1,110 @@
+{
+ "hydrogen peroxide": {
+  "A": "H",
+  "B": "O",
+  "outputA": "H2O2",
+  "outputB": "None"
+ },
+ "water": {
+  "A": "H2O2",
+  "B": "H",
+  "outputA": "H2O",
+  "outputB": "H2O"
+ },
+ "sulfur dioxide": {
+  "A": "S",
+  "B": "O",
+  "outputA": "SO2",
+  "outputB": "None"
+ },
+ "sulfur trioxide": {
+  "A": "SO2",
+  "B": "O",
+  "outputA": "SO3",
+  "outputB": "SO3"
+ },
+ "sulfuric acid": {
+  "A": "SO3",
+  "B": "H2O",
+  "outputA": "H2SO4",
+  "outputB": "None"
+ },
+ "oleum": {
+  "A": "H2SO4",
+  "B": "SO3",
+  "outputA": "H2S2O7",
+  "outputB": "None"
+ },
+ "sulfuric acid 2": {
+  "A": "H2S2O7",
+  "B": "H2O",
+  "outputA": "H2SO4",
+  "outputB": "H2SO4"
+ },
+ "sulfur dioxide 2": {
+  "A": "H2S",
+  "B": "O",
+  "outputA": "H2O",
+  "outputB": "SO2"
+ },
+ "hydrogen sulfide": {
+  "A": "FeS",
+  "B": "HCl",
+  "outputA": "FeCl2",
+  "outputB": "H2S"
+ },
+ "hydrogen sulfide 2": {
+  "A": "CH3C(S)NH2",
+  "B": "H2O",
+  "outputA": "CH3C(O)NH2",
+  "outputB": "H2S"
+ },
+ "hydrogen sulfide 3": {
+  "A": "H2O",
+  "B": "Al2S3",
+  "outputA": "H2S",
+  "outputB": "Al(OH)3"
+ },
+ "hydrogen sulfide 4": {
+  "A": "P3S10",
+  "B": "H2O",
+  "outputA": "H3PO4",
+  "outputB": "H2S"
+ },
+ "hydrogen sulfide 5": {
+  "A": "P2S5",
+  "B": "H2O",
+  "outputA": "H3PO4",
+  "outputB": "H2S"
+ },
+ "hydrogen sulfide 6": {
+  "A": "SiS2",
+  "B": "H2O",
+  "outputA": "SiO2",
+  "outputB": "H2S"
+ },
+ "aluminium sulfide": {
+  "A": "Al",
+  "B": "S",
+  "outputA": "Al2S3",
+  "outputB": "None"
+ },
+ "phosphorus pentasulfide": {
+  "A": "Fe2P",
+  "B": "S",
+  "outputA": "P4S10",
+  "outputB": "FeS"
+ },
+ "phosphorus pentasulfide 2": {
+  "A": "Fe2P",
+  "B": "FeS2",
+  "outputA": "P4S10",
+  "outputB": "FeS"
+ },
+ "sulfurous acid": {
+  "A": "SO2",
+  "B": "H2O",
+  "outputA": "H2SO3",
+  "outputB": "None"
+ }
+}

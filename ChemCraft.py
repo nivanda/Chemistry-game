@@ -1,28 +1,21 @@
-import sys, os
+import sys, os, json
 
 elements = ['H', 'C', 'N', 'O', 'F', 'P', 'S', 'Cl', 'Se', 'Br', 'I', 'Li', 'Na', 'K', 'Rb', 
             'Cs', 'Fr']
+recipes = {}
 
 pointers = {'pointer1': 'None', 'pointer2': 'None', 'pointer3': 'None', 'pointer4': 'None'}
 
+with open('recipes.json', 'r') as file:
+    recipes = json.load(file)
+
 def Reactionist(A, B):
-    if A == 'H' and B == 'O' or A == 'O' and B == 'H':
-        answer = {'A': 'H2O2', 'B': 'None'}
-        return answer
-    elif A == 'H2O2' and B == 'H' or A == 'H' and B == 'H2O2':
-        answer = {'A': 'H2O', 'B': 'H2O'}
-        return answer
-    elif A == 'S' and B == 'O' or A == 'O' and B == 'S':
-        answer = {'A': 'SO2', 'B': 'None'}
-        return answer
-    elif A == 'SO2' and B == 'O' or A == 'O' and B == 'SO2':
-        answer = {'A': 'SO3', 'B': 'SO3'}
-        return answer
-    elif A == 'SO3' and B == 'H2O' or A == 'H2O' and B == 'SO3':
-        answer = {'A': 'H2SO4', 'B': 'None'}
-        return answer
-    else:
-        answer = {'A': A, 'B': B}
+    for recipe in recipes:
+        if recipes[recipe]['A'] == A and recipes[recipe]['B'] == B or recipes[recipe]['A'] == B and recipes[recipe]['B'] == A:
+            answer = {'A': recipes[recipe]['outputA'], 'B': recipes[recipe]['outputB']}
+            return answer
+    answer = {'A': A, 'B': B}
+    return answer
 
 while True:
     print('Pointer 1 = {}'.format(pointers['pointer1']))
