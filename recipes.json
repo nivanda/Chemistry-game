@@ -142,5 +142,35 @@
   "B": "H2O",
   "outputA": "CH3C(O)NH2",
   "outputB": "None"
+ },
+ "ammonium acetate": {
+  "A": "C2H4O2",
+  "B": "(NH4)2CO3",
+  "outputA": "C2H7NO2",
+  "outputB": "CO2"
+ },
+ "carbonic acid": {
+  "A": "CO2",
+  "B": "H2O",
+  "outputA": "H2CO3",
+  "outputB": "None"
+ },
+ "ammonium bicarbonate": {
+  "A": "(NH4)2CO3",
+  "B": "(NH4)2CO3",
+  "outputA": "NH4HCO3",
+  "outputB": "NH3"
+ },
+ "ammonia": {
+  "A": "NH4HCO3",
+  "B": "NH4HCO3",
+  "outputA": "CO2",
+  "outputB": "NH3"
+ },
+ "ammonium carbonate": {
+  "A": "CO2",
+  "B": "NH3",
+  "outputA": "(NH4)2CO3",
+  "outputB": "None"
  }
 }
