@@ -1,7 +1,7 @@
 import sys, os, json
 
 elements = ['H', 'C', 'N', 'O', 'F', 'P', 'S', 'Cl', 'Se', 'Br', 'I', 'Li', 'Na', 'K', 'Rb', 
-            'Cs', 'Fr']
+            'Cs', 'Fr', 'Fe', 'Al', 'Si']
 recipes = {}
 
 pointers = {'pointer1': 'None', 'pointer2': 'None', 'pointer3': 'None', 'pointer4': 'None'}

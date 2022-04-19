@@ -66,7 +66,7 @@
   "outputB": "Al(OH)3"
  },
  "hydrogen sulfide 4": {
-  "A": "P3S10",
+  "A": "P4S10",
   "B": "H2O",
   "outputA": "H3PO4",
   "outputB": "H2S"
@@ -89,22 +89,58 @@
   "outputA": "Al2S3",
   "outputB": "None"
  },
- "phosphorus pentasulfide": {
-  "A": "Fe2P",
-  "B": "S",
-  "outputA": "P4S10",
-  "outputB": "FeS"
- },
- "phosphorus pentasulfide 2": {
-  "A": "Fe2P",
-  "B": "FeS2",
-  "outputA": "P4S10",
-  "outputB": "FeS"
- },
  "sulfurous acid": {
   "A": "SO2",
   "B": "H2O",
   "outputA": "H2SO3",
+  "outputB": "None"
+ },
+ "iron(II) sulfate": {
+  "A": "FeS",
+  "B": "H2SO4",
+  "outputA": "FeSO4",
+  "outputB": "H2S"
+ },
+ "iron(II) sulfide": {
+  "A": "Fe",
+  "B": "S",
+  "outputA": "FeS",
+  "outputB": "None"
+ },
+ "hydrochloric acid": {
+  "A": "Cl",
+  "B": "H",
+  "outputA": "HCl",
+  "outputB": "HCl"
+ },
+ "thioacetamide": {
+  "A": "CH3C(O)NH2",
+  "B": "P4S10",
+  "outputA": "CH3C(S)NH2",
+  "outputB": "P4S6O4"
+ },
+ "phosphorus pentoxide": {
+  "A": "P",
+  "B": "O",
+  "outputA": "P4O10",
+  "outputB": "None"
+ },
+ "phosphoric acid": {
+  "A": "P4O10",
+  "B": "H2O",
+  "outputA": "H3PO4",
+  "outputB": "H3PO4"
+ },
+ "acetamide": {
+  "A": "NH4CH3CO2",
+  "B": "NH4CH3CO2",
+  "outputA": "CH3C(O)NH2",
+  "outputB": "H2O"
+ },
+ "acetamide 2": {
+  "A": "CH3CN",
+  "B": "H2O",
+  "outputA": "CH3C(O)NH2",
   "outputB": "None"
  }
 }
